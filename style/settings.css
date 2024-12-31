@@ -1,0 +1,17 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  --gray: #48555b;
+  --accent-color: #00a4e5;
+}
+ul {
+  list-style: none;
+}
