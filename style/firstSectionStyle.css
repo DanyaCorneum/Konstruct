@@ -1,5 +1,5 @@
 * {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
 }
 *,
@@ -25,7 +25,7 @@ ul {
   font-size: medium;
   max-width: 120px;
   max-height: 20px;
-  margin: 50px auto 0;
+  margin: 60px auto 0;
   color: #48555b;
   text-align: center;
 }
@@ -41,14 +41,37 @@ ul {
 .our-story-section {
   display: flex;
   margin-top: 50px;
+  justify-content: center;
 }
 .main-text {
+  color: #48555b;
   font-size: 15px;
   max-width: 500px;
   max-height: 500px;
+  margin-right: 80px;
 }
 .images-about {
   display: flex;
-  flex-wrap: wrap;
-  justify-items: end;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+.images-about-item {
+  margin-right: 20px;
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  width: 140px;
+  height: 224px;
+  padding: 15px;
+}
+.images-about-item:nth-child(1) {
+  background-image: url("../images/we_plan.png");
+}
+.images-about-item:nth-child(2) {
+  background-image: url("../images/we_manage.png");
+}
+.images-about-item:nth-child(3) {
+  background-image: url("../images/we_build.png");
+  margin-right: 0;
 }
