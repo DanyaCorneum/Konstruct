@@ -32,6 +32,11 @@
     grid-template-columns: 300px;
     grid-gap: 30px;
   }
+  /* registration */
+  .registration-container h3 {
+    margin-right: 50px;
+    margin-left: 20px;
+  }
 }
 
 @media screen and (max-width: 800px) {

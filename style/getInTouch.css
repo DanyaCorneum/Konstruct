@@ -1,12 +1,11 @@
-.get-in-touch {
-}
 .get-in-touch-container {
   background-image: url("../images/get-in-touch.png");
+  background-color: #171819;
   width: 100%;
-  height: 100%;
   background-size: cover;
   height: 500px;
   padding-top: 120px;
+  z-index: 0;
 }
 .get-in-touch-container p {
   text-align: center;
