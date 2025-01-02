@@ -8,6 +8,10 @@
   .our-story-container {
     padding: 0px 20px;
   }
+  /* footer */
+  .footer-container {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 1024px) {
   .icon img {
@@ -65,5 +69,9 @@
   .our-capabilities-container p {
     width: 350px;
     height: 40px;
+  }
+  /* footer */
+  .footer-container {
+    margin-left: 10px;
   }
 }
