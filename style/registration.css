@@ -30,4 +30,10 @@
   text-transform: uppercase;
   font-weight: 600;
   text-align: center;
+  transition: 200ms ease;
+}
+.registration-container #button:hover {
+  cursor: pointer;
+  background-color: #171819;
+  color: var(--accent-color);
 }
