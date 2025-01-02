@@ -1,0 +1,31 @@
+.get-in-touch-container {
+  background-image: url("../images/get-in-touch.png");
+  background-color: #171819;
+  width: 100%;
+  background-size: cover;
+  height: 500px;
+  padding-top: 120px;
+  z-index: 0;
+}
+.get-in-touch-container p {
+  text-align: center;
+  color: var(--gray);
+  font-size: 30px;
+  font-weight: 600;
+}
+.get-in-touch button {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--accent-color);
+  width: 150px;
+  height: 40px;
+  border: none;
+  color: white;
+  transition: 200ms ease;
+  font-weight: bold;
+}
+.get-in-touch button:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+  background-color: white;
+}

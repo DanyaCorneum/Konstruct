@@ -11,6 +11,7 @@ body {
   margin: 0;
   --gray: #48555b;
   --accent-color: #00a4e5;
+  --light-gray: #e6e6e6;
 }
 ul {
   list-style: none;
