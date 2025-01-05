@@ -66,8 +66,9 @@
     grid-template-columns: 300px;
     grid-gap: 25px;
   }
+
   .our-capabilities-container p {
-    width: 350px;
+    width: 250px;
     height: 40px;
   }
   /* footer */
