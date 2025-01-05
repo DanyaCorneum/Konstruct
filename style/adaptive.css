@@ -41,6 +41,9 @@
     margin-right: 50px;
     margin-left: 20px;
   }
+  .registration-container {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -60,6 +63,10 @@
   .images-about-item:nth-child(3) {
     margin: 20px auto 0;
   }
+  /* registration */
+  .get-in-touch-container p {
+    font-size: 20px;
+  }
   /* our capabilities */
   .our-capabilities-container {
     display: grid;
@@ -74,5 +81,8 @@
   /* footer */
   .footer-container {
     margin-left: 10px;
+  }
+  .company p {
+    width: 250px;
   }
 }
