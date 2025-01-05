@@ -64,7 +64,9 @@
     margin: 20px auto 0;
   }
   /* registration */
-
+  .get-in-touch-container p {
+    font-size: 20px;
+  }
   /* our capabilities */
   .our-capabilities-container {
     display: grid;
